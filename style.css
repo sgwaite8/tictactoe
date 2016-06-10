@@ -10,7 +10,20 @@ h1 {
     text-align: center;
     color: #E37222;
 }
-#square1 {
+table {
+    margin: 0 auto;
+    width: 25%;
+}
+td {
+border: 1px solid black;
+height: 50px;
+width: 50px;
+margin: 0 auto;
+}
+a {
+    margin: 20px;
+}
+/*#square1 {
     display: inline-block;
     height: 100px;
     width: 100px;
@@ -93,7 +106,7 @@ h1 {
     padding: 20px 20px;
     margin: 0 -2px;
     display: inline-block;
-}
+}*/
 
 @media screen and (max-width: 800px) {
     .board {
