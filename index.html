@@ -2,18 +2,23 @@
 <html>
   <head>
     <title>Tic Tac Toe</title>
+    <link href="http://bootswatch.com/paper/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <link href="style.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
   </head>
 
-  <body>
+  <body class="container">
   <header>
-    <h1>Logo</h1>
+    <p>Logo</p>
   </header>
   <section class="hero">
-    <h2>Tic Tac Toe</h2>
+    <h1>Tic Tac Toe</h1>
   </section>
-  <section class="board">
-    <div class="squares">
-      <div class="row1">
+  <section class="row"
+  <div class="board col-xs-12 col-sm-3">
+    <div class="table text-center">
+      <div class="row">
         <div id="square1">?</div>
         <div id="square2">?</div>
         <div id="square3">?</div>
@@ -28,22 +33,23 @@
         <div id="square8">?</div>
         <div id="square9">?</div>
       </div>
+      <a href="#" class="btn btn-default">Reset</a>
     </div>
-  </section>
+  </div>
   <section class="key">
-    <div class="player1">
+    <div class="player1 col-xs-12 col-sm-3">
       <h3>Player 1</h3>
         <h4>"X"</h4>
     </div>
-    <div class ="player2">
+    <div class ="player2 col-xs-12 col-sm-3">
       <h3>Player 2</h3>
         <h4>"O"</h4>
     </div>
   </section>
+  </section>
   <section class="howto">
     <h5>How to Play</h5>
       <p>Tic Tac Toe is a game for two players, O and X, who take turns marking the spaces in a 3x3 grid. The player who succeeds in placing three of their marks in a horizontal, vertical, or diagonal row wins the game.</p>
-
   </section>
 
   </body>
