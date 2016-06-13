@@ -13,7 +13,10 @@ h1 {
 table {
     margin: 0 auto;
     width: 25%;
+    color: #07889B;
+    background-color: #EEAA7B;
 }
+
 td {
 border: 1px solid black;
 height: 50px;
@@ -22,6 +25,12 @@ margin: 0 auto;
 }
 a {
     margin: 20px;
+}
+
+td .char {
+   text-align: center;
+   font-size: 20px;
+
 }
 /*#square1 {
     display: inline-block;
